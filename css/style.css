@@ -15,6 +15,8 @@
 	.nav{
 		display: flex;
 		flex-direction: row;
+		padding: 64px 0;
+		
 		
 	}
 
@@ -56,17 +58,14 @@
 
 	.testo{
 		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
-		padding: 64px 200px;	
-		max-width: 1100px;
-		min-height: 300px;
+		padding: 0;
+		width: 600px;
+		
+		
 		
 		
 	}
@@ -76,15 +75,15 @@
 	}
 
 	.costum-buttom{
-		border: none;
 		padding: 10px 20px;
-		font-size: 16px;
+		border: none;	
 		cursor: pointer;
 		transition: 0.5s;
-		border-radius: 5px;
+		border-radius: 10px;
 		
 
 	}
+
 
 	.button1{
 		background-color: white;
@@ -101,6 +100,16 @@
 		background-color: gray;
 	}
 
+	.buttonLogin{
+		height: 40px;
+		width: 60px;
+		border: none;	
+		cursor: pointer;
+		transition: 0.5s;
+		border-radius: 10px;	
+
+	}
+
 /*Fine header*/
 
 /*section1*/
@@ -115,6 +124,7 @@
 section > .container-main {
 	flex-direction: column;
 	justify-content: center;
+	
 }
 
 
@@ -123,14 +133,14 @@ section > .container-main {
 	align-items: center;
 	justify-content:center;
 	background-color: rgb(233, 233, 233);
+	
 
 }
+
 
 .itemBeige {
 	align-items: center;
 }
-
-
 
 /*section4*/
 
@@ -159,7 +169,6 @@ section > .container-main {
 }
 
 .innerSpacef{
-    padding: 16px 200px;
     width: 100%;
     height: 400px;
     background: black;
@@ -173,35 +182,35 @@ section > .container-main {
 }
 
 .rosa{
-    width:20%;
+    width:30%;
     border-style: dashed;
   
 
 }
 
 .verde1{
-    width: 20%;
+    width: 17.5%;
     display: flex;
     border-style: dashed;
 
 }
 
 .verde2{
-    width: 20%;
+    width: 17.5%;
     display: flex;
     border-style: dashed;
 
 }
 
 .verde3{
-    width: 20%;
+    width: 17.5%;
     display: flex;
     border-style: dashed;
 
 }
 
 .verde4{
-    width: 20%;
+    width: 17.5%;
     display: flex;
     border-style: dashed;
 
@@ -225,10 +234,10 @@ hr{
 .navf {
     display: flex;
     flex-direction: row;
-    height: 30px ;
-    width: 1020px;
-    margin: 14px;
+    width: 100%;
+    margin: 0;
     justify-content: space-between;
+	padding: 10px 110px;
 
   
     
@@ -236,12 +245,9 @@ hr{
 }
 
 .logof{
-    display: flex;
-    height: 20px;
-    width: 60px;
-    align-items: center;
-    justify-content: center; 
-
+    height: 50px;
+    width: 100px;
+   
     
     
 
@@ -250,12 +256,13 @@ hr{
 .bottoneFooter{
 	background-color: #8FA1E1;
     display: flex;
-    height: 20px;
-    width: 60px;
     align-items: center;
     justify-content: center; 
-   
-
+	padding: 10px 20px;
+	border: none;	
+	cursor: pointer;
+	transition: 0.5s;
+	border-radius: 20px;
    
 }
 
@@ -277,6 +284,28 @@ hr{
 	padding: 0 64px;
 }
 
+.p80{
+	padding: 0 64px;
+}
+
+.p8-4{
+	padding: 80px 110px; 
+}
+
+.p10-110{
+	padding: 10px 110px;
+}
+
+.p110{
+	padding: 110x; 
+}
+
+/*margin*/
+
+.m8{
+	margin: 8px;
+}
+
 .testoViola{
 
 	color: #8FA1E1;
@@ -296,6 +325,19 @@ hr{
 	list-style-type: none;
 
 }
+
+.tDecorationN{
+	text-decoration: none;
+}
+/* Style testo*/
+.fontSize48{
+	font-size: 48px;
+}
+
+.lineHeight{
+	line-height: 1.625;
+}
+
 
 .textCenter{
 	text-align: center;
