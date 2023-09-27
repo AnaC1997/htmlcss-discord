@@ -6,8 +6,10 @@
 	}
 
 	/*Inizio header*/
+
 	.contenitore-headerm{
 		background-color: #3161E0;
+		max-width: 100%;
 	}
 
 	.nav{
@@ -16,12 +18,13 @@
 		
 	}
 
-	
-	.imgLogo{
-		width: 10%;
-		
+	.containerImg{
+		width: 20%;
+
+
 		
 	}
+
 
 	.container-link{
 		display: flex;
@@ -79,6 +82,7 @@
 		cursor: pointer;
 		transition: 0.5s;
 		border-radius: 5px;
+		
 
 	}
 
@@ -169,7 +173,6 @@ section > .container-main {
 }
 
 .rosa{
-    background: #F08080;
     width:20%;
     border-style: dashed;
   
@@ -177,7 +180,6 @@ section > .container-main {
 }
 
 .verde1{
-    background: #21B2AA;
     width: 20%;
     display: flex;
     border-style: dashed;
@@ -185,7 +187,6 @@ section > .container-main {
 }
 
 .verde2{
-    background: #21B2AA;
     width: 20%;
     display: flex;
     border-style: dashed;
@@ -193,7 +194,6 @@ section > .container-main {
 }
 
 .verde3{
-    background: #21B2AA;
     width: 20%;
     display: flex;
     border-style: dashed;
@@ -201,7 +201,6 @@ section > .container-main {
 }
 
 .verde4{
-    background: #21B2AA;
     width: 20%;
     display: flex;
     border-style: dashed;
@@ -223,10 +222,9 @@ hr{
     
 }
 
-.nav {
+.navf {
     display: flex;
     flex-direction: row;
-    background-color: #7FFFD4;
     height: 30px ;
     width: 1020px;
     margin: 14px;
@@ -239,7 +237,6 @@ hr{
 
 .logof{
     display: flex;
-    background: #FFB6C0;
     height: 20px;
     width: 60px;
     align-items: center;
@@ -251,8 +248,8 @@ hr{
 }
 
 .bottoneFooter{
+	background-color: #8FA1E1;
     display: flex;
-    background: #FFB6C0;
     height: 20px;
     width: 60px;
     align-items: center;
@@ -264,20 +261,50 @@ hr{
 
 
 
-	/*-utilities*/
+	/*-Generici*/
 
 
 .flex{
 	display: flex;
 }
 
+/* paddin*/
 .p16 {
 	padding:16px;
 }
 
+.p64{
+	padding: 0 64px;
+}
+
+.testoViola{
+
+	color: #8FA1E1;
+
+}
+
+.testoBianco{
+	color: white;
+	
+}
+
+.sfondoViola{
+	background-color: #8FA1E1; 
+}
+
+.ulNone{
+	list-style-type: none;
+
+}
+
+.textCenter{
+	text-align: center;
+}
 
 
-
-
-
+.flexContainer{
+	max-width: 100%x;
+	margin: 0 auto;
+	min-width: 300px;
+}
 	
